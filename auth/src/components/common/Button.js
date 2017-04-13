@@ -15,6 +15,7 @@ const Button = ({ onPress, children }) => {
 
 const styles = {
   buttonStyle: {
+    marginTop: 100,
     flex: 1,
     alignSelf: 'stretch',
     backgroundColor: '#fff',
@@ -34,4 +35,4 @@ const styles = {
   }
 };
 
-export { Button } ;
+export { Button };
